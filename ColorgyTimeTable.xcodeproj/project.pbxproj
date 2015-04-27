@@ -13,6 +13,7 @@
 		630A6D2D1AEDE0C100647BC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630A6D2C1AEDE0C100647BC1 /* Images.xcassets */; };
 		630A6D301AEDE0C100647BC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 630A6D2E1AEDE0C100647BC1 /* LaunchScreen.xib */; };
 		630A6D3C1AEDE0C200647BC1 /* ColorgyTimeTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A6D3B1AEDE0C200647BC1 /* ColorgyTimeTableTests.swift */; };
+		630A6D461AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A6D451AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		630A6D351AEDE0C200647BC1 /* ColorgyTimeTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorgyTimeTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630A6D3A1AEDE0C200647BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		630A6D3B1AEDE0C200647BC1 /* ColorgyTimeTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorgyTimeTableTests.swift; sourceTree = "<group>"; };
+		630A6D451AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorgyTimeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				630A6D251AEDE0C100647BC1 /* AppDelegate.swift */,
 				630A6D271AEDE0C100647BC1 /* ViewController.swift */,
 				630A6D291AEDE0C100647BC1 /* Main.storyboard */,
+				630A6D451AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift */,
 				630A6D2C1AEDE0C100647BC1 /* Images.xcassets */,
 				630A6D2E1AEDE0C100647BC1 /* LaunchScreen.xib */,
 				630A6D231AEDE0C100647BC1 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630A6D461AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift in Sources */,
 				630A6D281AEDE0C100647BC1 /* ViewController.swift in Sources */,
 				630A6D261AEDE0C100647BC1 /* AppDelegate.swift in Sources */,
 			);
