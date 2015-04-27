@@ -14,6 +14,9 @@
 		630A6D301AEDE0C100647BC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 630A6D2E1AEDE0C100647BC1 /* LaunchScreen.xib */; };
 		630A6D3C1AEDE0C200647BC1 /* ColorgyTimeTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A6D3B1AEDE0C200647BC1 /* ColorgyTimeTableTests.swift */; };
 		630A6D461AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A6D451AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift */; };
+		630A6D481AEE06E000647BC1 /* ColorgyFBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A6D471AEE06E000647BC1 /* ColorgyFBLoginViewController.swift */; };
+		630A6D4A1AEE116000647BC1 /* ColorgySetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A6D491AEE116000647BC1 /* ColorgySetupProfileViewController.swift */; };
+		630A6D4C1AEE141800647BC1 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630A6D4B1AEE141800647BC1 /* profile.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		630A6D3A1AEDE0C200647BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		630A6D3B1AEDE0C200647BC1 /* ColorgyTimeTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorgyTimeTableTests.swift; sourceTree = "<group>"; };
 		630A6D451AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorgyTimeTableViewController.swift; sourceTree = "<group>"; };
+		630A6D471AEE06E000647BC1 /* ColorgyFBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorgyFBLoginViewController.swift; sourceTree = "<group>"; };
+		630A6D491AEE116000647BC1 /* ColorgySetupProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorgySetupProfileViewController.swift; sourceTree = "<group>"; };
+		630A6D4B1AEE141800647BC1 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 				630A6D221AEDE0C100647BC1 /* ColorgyTimeTable */,
 				630A6D381AEDE0C200647BC1 /* ColorgyTimeTableTests */,
 				630A6D211AEDE0C100647BC1 /* Products */,
+				630A6D4B1AEE141800647BC1 /* profile.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +89,8 @@
 				630A6D251AEDE0C100647BC1 /* AppDelegate.swift */,
 				630A6D271AEDE0C100647BC1 /* ViewController.swift */,
 				630A6D291AEDE0C100647BC1 /* Main.storyboard */,
+				630A6D491AEE116000647BC1 /* ColorgySetupProfileViewController.swift */,
+				630A6D471AEE06E000647BC1 /* ColorgyFBLoginViewController.swift */,
 				630A6D451AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift */,
 				630A6D2C1AEDE0C100647BC1 /* Images.xcassets */,
 				630A6D2E1AEDE0C100647BC1 /* LaunchScreen.xib */,
@@ -198,6 +207,7 @@
 				630A6D2B1AEDE0C100647BC1 /* Main.storyboard in Resources */,
 				630A6D301AEDE0C100647BC1 /* LaunchScreen.xib in Resources */,
 				630A6D2D1AEDE0C100647BC1 /* Images.xcassets in Resources */,
+				630A6D4C1AEE141800647BC1 /* profile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630A6D481AEE06E000647BC1 /* ColorgyFBLoginViewController.swift in Sources */,
 				630A6D461AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift in Sources */,
+				630A6D4A1AEE116000647BC1 /* ColorgySetupProfileViewController.swift in Sources */,
 				630A6D281AEDE0C100647BC1 /* ViewController.swift in Sources */,
 				630A6D261AEDE0C100647BC1 /* AppDelegate.swift in Sources */,
 			);
