@@ -15,6 +15,8 @@ class ColorgySetupProfileViewController: UIViewController {
     
     var profilePhoto: UIImageView!
     
+    var userName, userPhone, userSchool: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -38,6 +40,34 @@ class ColorgySetupProfileViewController: UIViewController {
         profilePhoto.layer.masksToBounds = true
         
         self.view.addSubview(profilePhoto)
+        
+        // add text field to user
+        userName = UITextField(frame: CGRectMake(0, 0, self.view.frame.width*0.8, 30))
+        userName.layer.borderWidth = 1
+        userName.layer.borderColor = UIColor.grayColor().CGColor
+        userName.layer.cornerRadius = 3
+        userName.placeholder = "name"
+        userName.borderStyle = UITextBorderStyle.RoundedRect
+        userName.center = CGPointMake(self.view.center.x, self.view.center.y)
+        self.view.addSubview(userName)
+        
+        userPhone = UITextField(frame: CGRectMake(0, 0, self.view.frame.width*0.8, 30))
+        userPhone.layer.borderWidth = 1
+        userPhone.layer.borderColor = UIColor.grayColor().CGColor
+        userPhone.layer.cornerRadius = 3
+        userPhone.placeholder = "phone"
+        userPhone.borderStyle = UITextBorderStyle.RoundedRect
+        userPhone.center = CGPointMake(self.view.center.x, self.view.center.y+60)
+        self.view.addSubview(userPhone)
+        
+        userSchool = UITextField(frame: CGRectMake(0, 0, self.view.frame.width*0.8, 30))
+        userSchool.layer.borderWidth = 1
+        userSchool.layer.borderColor = UIColor.grayColor().CGColor
+        userSchool.layer.cornerRadius = 3
+        userSchool.placeholder = "school"
+        userSchool.borderStyle = UITextBorderStyle.RoundedRect
+        userSchool.center = CGPointMake(self.view.center.x, self.view.center.y+120)
+        self.view.addSubview(userSchool)
     }
 
     override func didReceiveMemoryWarning() {
