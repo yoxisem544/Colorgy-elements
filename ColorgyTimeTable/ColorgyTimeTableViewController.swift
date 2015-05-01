@@ -57,6 +57,8 @@ class ColorgyTimeTableViewController: UIViewController {
         // also header bar width is equal to cell width
         self.headerWidth = cellWidth
         
+
+        
         self.view.addSubview(self.ColorgyTimeTableView())
     }
 

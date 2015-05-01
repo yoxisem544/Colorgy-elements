@@ -17,6 +17,9 @@
 		630A6D481AEE06E000647BC1 /* ColorgyFBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A6D471AEE06E000647BC1 /* ColorgyFBLoginViewController.swift */; };
 		630A6D4A1AEE116000647BC1 /* ColorgySetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A6D491AEE116000647BC1 /* ColorgySetupProfileViewController.swift */; };
 		630A6D4C1AEE141800647BC1 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630A6D4B1AEE141800647BC1 /* profile.jpg */; };
+		631FFE151AF3387200B5A903 /* ColorgyAddCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631FFE141AF3387200B5A903 /* ColorgyAddCourseViewController.swift */; };
+		631FFE171AF3612800B5A903 /* NCKU_samll_course.json in Resources */ = {isa = PBXBuildFile; fileRef = 631FFE161AF3612800B5A903 /* NCKU_samll_course.json */; };
+		631FFE1A1AF3941500B5A903 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631FFE191AF3941500B5A903 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		630A6D471AEE06E000647BC1 /* ColorgyFBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorgyFBLoginViewController.swift; sourceTree = "<group>"; };
 		630A6D491AEE116000647BC1 /* ColorgySetupProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorgySetupProfileViewController.swift; sourceTree = "<group>"; };
 		630A6D4B1AEE141800647BC1 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		631FFE141AF3387200B5A903 /* ColorgyAddCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorgyAddCourseViewController.swift; sourceTree = "<group>"; };
+		631FFE161AF3612800B5A903 /* NCKU_samll_course.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NCKU_samll_course.json; sourceTree = "<group>"; };
+		631FFE191AF3941500B5A903 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 				630A6D381AEDE0C200647BC1 /* ColorgyTimeTableTests */,
 				630A6D211AEDE0C100647BC1 /* Products */,
 				630A6D4B1AEE141800647BC1 /* profile.jpg */,
+				631FFE161AF3612800B5A903 /* NCKU_samll_course.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +96,8 @@
 				630A6D251AEDE0C100647BC1 /* AppDelegate.swift */,
 				630A6D271AEDE0C100647BC1 /* ViewController.swift */,
 				630A6D291AEDE0C100647BC1 /* Main.storyboard */,
+				631FFE191AF3941500B5A903 /* test.swift */,
+				631FFE141AF3387200B5A903 /* ColorgyAddCourseViewController.swift */,
 				630A6D491AEE116000647BC1 /* ColorgySetupProfileViewController.swift */,
 				630A6D471AEE06E000647BC1 /* ColorgyFBLoginViewController.swift */,
 				630A6D451AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift */,
@@ -204,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631FFE171AF3612800B5A903 /* NCKU_samll_course.json in Resources */,
 				630A6D2B1AEDE0C100647BC1 /* Main.storyboard in Resources */,
 				630A6D301AEDE0C100647BC1 /* LaunchScreen.xib in Resources */,
 				630A6D2D1AEDE0C100647BC1 /* Images.xcassets in Resources */,
@@ -228,8 +238,10 @@
 				630A6D481AEE06E000647BC1 /* ColorgyFBLoginViewController.swift in Sources */,
 				630A6D461AEDE0EE00647BC1 /* ColorgyTimeTableViewController.swift in Sources */,
 				630A6D4A1AEE116000647BC1 /* ColorgySetupProfileViewController.swift in Sources */,
+				631FFE151AF3387200B5A903 /* ColorgyAddCourseViewController.swift in Sources */,
 				630A6D281AEDE0C100647BC1 /* ViewController.swift in Sources */,
 				630A6D261AEDE0C100647BC1 /* AppDelegate.swift in Sources */,
+				631FFE1A1AF3941500B5A903 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +439,7 @@
 				630A6D411AEDE0C200647BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		630A6D421AEDE0C200647BC1 /* Build configuration list for PBXNativeTarget "ColorgyTimeTableTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +448,7 @@
 				630A6D441AEDE0C200647BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

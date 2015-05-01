@@ -12,6 +12,8 @@ class ColorgySetupProfileViewController: UIViewController {
     
     var colorgyGreen: UIColor = UIColor(red: 42/255.0, green: 171/255.0, blue: 147/255.0, alpha: 1)
     var colorgyYellow: UIColor = UIColor(red: 1, green: 1, blue: 0, alpha: 1)
+    var colorgyDarkGray: UIColor = UIColor(red: 74/255.0, green: 74/255.0, blue: 74/255.0, alpha: 1)
+    var colorrgyLightGray: UIColor = UIColor(red: 216/255.0, green: 216/255.0, blue: 216/255.0, alpha: 1)
     
     var profilePhoto: UIImageView!
     
@@ -22,16 +24,18 @@ class ColorgySetupProfileViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
+        self.view.backgroundColor = self.colorgyGreen
+        
         // upper patches of profile
         var upperpatches = UIView(frame: CGRectMake(0, 0, self.view.frame.width, self.view.frame.height * 0.36))
-        upperpatches.backgroundColor = self.colorgyGreen
+        upperpatches.backgroundColor = self.colorgyDarkGray
         
         self.view.addSubview(upperpatches)
         
         // profile image
         var profilePhtotHeight = self.view.frame.width * 0.3
         profilePhoto = UIImageView(frame: CGRectMake(0, 0, profilePhtotHeight, profilePhtotHeight))
-        profilePhoto.layer.borderColor = self.colorgyYellow.CGColor
+        profilePhoto.layer.borderColor = self.colorrgyLightGray.CGColor
         profilePhoto.layer.borderWidth = 3
         profilePhoto.layer.cornerRadius = profilePhtotHeight / 2
         profilePhoto.backgroundColor = UIColor.grayColor()
@@ -43,27 +47,18 @@ class ColorgySetupProfileViewController: UIViewController {
         
         // add text field to user
         userName = UITextField(frame: CGRectMake(0, 0, self.view.frame.width*0.8, 30))
-        userName.layer.borderWidth = 1
-        userName.layer.borderColor = UIColor.grayColor().CGColor
-        userName.layer.cornerRadius = 3
         userName.placeholder = "name"
         userName.borderStyle = UITextBorderStyle.RoundedRect
         userName.center = CGPointMake(self.view.center.x, self.view.center.y)
         self.view.addSubview(userName)
         
         userPhone = UITextField(frame: CGRectMake(0, 0, self.view.frame.width*0.8, 30))
-        userPhone.layer.borderWidth = 1
-        userPhone.layer.borderColor = UIColor.grayColor().CGColor
-        userPhone.layer.cornerRadius = 3
         userPhone.placeholder = "phone"
         userPhone.borderStyle = UITextBorderStyle.RoundedRect
         userPhone.center = CGPointMake(self.view.center.x, self.view.center.y+60)
         self.view.addSubview(userPhone)
         
         userSchool = UITextField(frame: CGRectMake(0, 0, self.view.frame.width*0.8, 30))
-        userSchool.layer.borderWidth = 1
-        userSchool.layer.borderColor = UIColor.grayColor().CGColor
-        userSchool.layer.cornerRadius = 3
         userSchool.placeholder = "school"
         userSchool.borderStyle = UITextBorderStyle.RoundedRect
         userSchool.center = CGPointMake(self.view.center.x, self.view.center.y+120)

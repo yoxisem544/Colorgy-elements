@@ -34,11 +34,11 @@ class ColorgyFBLoginViewController: UIViewController {
         // password and account login
         self.setupUserPasswordAndAccount()
         self.hideUserPasswordAndAccount(false)
-//        self.showUserPasswordAndAccount()
+        self.showUserPasswordAndAccount()
         
-        self.setupFacebookLoginButton()
-        self.hideFacebookButton(false)
-        self.showFacebookButton()
+//        self.setupFacebookLoginButton()
+//        self.hideFacebookButton(false)
+//        self.showFacebookButton()
     }
     
     func setupFacebookLoginButton() {
@@ -72,6 +72,8 @@ class ColorgyFBLoginViewController: UIViewController {
         self.colorgyLogo.image = logo
         self.colorgyLogo.center.x = self.view.center.x
         self.colorgyLogo.center.y = self.view.center.y * 0.6
+        
+        self.view.backgroundColor = UIColor(red: 113/255.0, green: 112/255.0, blue: 113/255.0, alpha: 1)
         
         self.view.addSubview(self.colorgyLogo)
     }

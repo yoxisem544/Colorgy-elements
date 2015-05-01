@@ -16,7 +16,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        var storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        if false {
+            println("true")
+            var vc = storyboard.instantiateViewControllerWithIdentifier("test") as! UINavigationController
+            self.window?.rootViewController = vc
+            println(vc)
+            self.window?.makeKeyAndVisible()
+        } else {
+            // fblogin
+            var vc = storyboard.instantiateViewControllerWithIdentifier("fblogin") as! ColorgyFBLoginViewController
+            self.window?.rootViewController = vc
+            self.window?.makeKeyAndVisible()
+        }
+        
+        println("launch")
         return true
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {
